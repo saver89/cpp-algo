@@ -1,10 +1,11 @@
 #include <iostream>
 #include "string-length.h"
+#include "tester.h"
 
 int main() {
   StringLength task;
-  std::string req[] = {"Hello, World!"};
-  std::string res = task.run(req);
-  std::cout << res << std::endl;
+  Tester tester(&task, "tests");
+  tester.RunTest();
+  
   return 0;
 }
