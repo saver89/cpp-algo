@@ -1,5 +1,5 @@
 #include <iostream>
-#include "itask.h"
+#include "../../itask.h"
 
 class StringLength : public ITask {
   public:
